@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: azure;
+}
+.wrapper{
+    max-width: 1156px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+.bg-clip{
+    position: absolute;
+    z-index: -1;
+
+}
+.bg-plate{
+    background-color: black;
+    width: 100%;
+    height: 115vh;
+    opacity: 60%;
+    position: absolute;
+    z-index: -1;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(21, 20, 24, 0.514);
+    /* position: fixed; */
+}
+.nav-second{
+    display: flex;
+    flex-direction: row;
+}
+.nav-first{
+    padding: 1.2em 3.5em;
+}
+.nav-second a{
+    padding: 1.2em 3.5em;
+}
